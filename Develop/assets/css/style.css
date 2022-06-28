@@ -1,13 +1,16 @@
+/* Sets everything by these stle parameters */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Sets body background color */
 body {
     background-color: #d9dcd6;
 }
 
+/* Sets header's style properties */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,41 +18,46 @@ body {
     color: #ffffff;
 }
 
-.header h1 {
+/* Sets title style properties */
+#title{
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+/* sets color of seo in Horiseon */
+.seo {
     color: #d9dcd6;
 }
 
-.header div {
+/* Sets style properties of navigaiton bar */
+.nav{
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-.header div ul {
     list-style-type: none;
+    
 }
 
-.header div ul li {
+/* Sets the list to inline */
+.nav li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* sets color of all "a" as well as gets rid of text decoration */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* sets parapgraph's font size */
 p {
     font-size: 16px;
 }
 
+/* main photo's style properties */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,20 +67,44 @@ p {
     background-position: center;
 }
 
+/* sets properties of the three content files */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Sets all content's parameters */
+.content-paramters {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Sets parent float Left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Sets parent float right  */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+/* Sets all content image parameters */
+.content-paramters img {
+    max-height: 200px;
+}
+
+/* Sets all content h2 parameters */
+.content-paramters h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .benefits {
@@ -86,106 +118,23 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Sets margins for all individual benefits as well as color */
+.benefit-each {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* Sets each h3's margins and text alignment*/
+.benefit-each h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* Sets images parameters */
+.benefit-each img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .footer {
